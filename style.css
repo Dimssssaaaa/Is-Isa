@@ -1,0 +1,179 @@
+.head {
+  padding: 25px;
+}
+.head__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.head__wrapper-number {
+  display: flex;
+  flex-direction: column;
+}
+.head__number {
+  font-weight: 800;
+  font-size: 22px;
+}
+.head__numbers {
+  font-size: 18px;
+  color: rgba(51, 49, 46, 0.699);
+}
+.head__logo {
+  display: flex;
+  flex-direction: column;
+}
+.head__logo-title {
+  font-family: Quicksand;
+  font-size: 35px;
+}
+.head__wrapper-user {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.2;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+}
+
+select {
+  color: inherit;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.header {
+  padding: 25px;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hero__wrapper-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  background: #dfd5d5;
+  color: #000000;
+}
+.footer__info-block {
+  padding: 80px 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(248, 247, 247);
+}
+.footer__info-title {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.footer__info-subtitle {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 150%;
+  text-transform: lowercase;
+}
+.footer__info-text {
+  max-width: 860px;
+  color: #000000;
+  font-size: 16px;
+}
+.footer__wrapper {
+  padding: 50px 0 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer__contact-block {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.footer__copy {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer__lawyers-block {
+  max-width: 424px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: start;
+}
+.footer__lawyer-head {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
